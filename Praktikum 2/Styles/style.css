@@ -1,0 +1,47 @@
+body { 
+    background: url(background.jpg) no-repeat center fixed; 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    padding-left: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 750px;
+    border: 3px solid;
+    box-shadow: 2px 2px 4px #000000;
+    
+}
+
+div{
+    padding-left: 30px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #ffffff}
+tr:nth-child(odd){background-color: #e6e6e6}
+
+th {
+    background-color: #393939;
+    color: white;
+}
+
+td.cek {
+    text-align: center;
+}
+
+.v{
+    max-width: 30px;
+}
+
+
